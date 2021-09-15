@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/c23ccaaf7d.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="src/reset.css">
+    <link rel="stylesheet" href="src/style.css">
+    <title>Cards-page</title>
+</head>
+
+<body>
+    <header>
+        <div class="header-content-box">
+            <h1>Lorem ipsum dolor sit amet</h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Semper vel proin purus ac amet. Etiam
+                pellentesque malesuada vestibulum quis aenean maecenas blandit. </p>
+            <button>Clique aqui!</button>
+        </div>
+        <img src="src/img/image.svg">
+    </header>
+    <main>
+        <ul class="grid-container">
+            <li>
+                <div class="card-img"></div>
+                <div class="card-content">
+                    <h1 class="card-title">Título do card</h1>
+                    <p class="card-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum in neque
+                        et nisl.</p>
+                </div>
+            </li>
+            <li>
+                <div class="card-img"></div>
+                <div class="card-content">
+                    <h1 class="card-title">Título do card</h1>
+                    <p class="card-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum in neque
+                        et nisl.</p>
+                </div>
+            </li>
+            <li>
+                <div class="card-img"></div>
+                <div class="card-content">
+                    <h1 class="card-title">Título do card</h1>
+                    <p class="card-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum in neque
+                        et nisl.</p>
+                </div>
+            </li>
+            <li>
+                <div class="card-img"></div>
+                <div class="card-content">
+                    <h1 class="card-title">Título do card</h1>
+                    <p class="card-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum in neque
+                        et nisl.</p>
+                </div>
+            </li>
+            <li>
+                <div class="card-img"></div>
+                <div class="card-content">
+                    <h1 class="card-title">Título do card</h1>
+                    <p class="card-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum in neque
+                        et nisl.</p>
+                </div>
+            </li>
+            <li>
+                <div class="card-img"></div>
+                <div class="card-content">
+                    <h1 class="card-title">Título do card</h1>
+                    <p class="card-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum in neque
+                        et nisl.</p>
+                </div>
+            </li>
+            <li>
+                <div class="card-img"></div>
+                <div class="card-content">
+                    <h1 class="card-title">Título do card</h1>
+                    <p class="card-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum in neque
+                        et nisl.</p>
+                </div>
+            </li>
+            <li>
+                <div class="card-img"></div>
+                <div class="card-content">
+                    <h1 class="card-title">Título do card</h1>
+                    <p class="card-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum in neque
+                        et nisl.</p>
+                </div>
+            </li>
+        </ul>
+    </main>
+    <footer>
+        <div class="form-container">
+            <form>
+                <h1>Entre em contato</h1>
+                <input type="text" placeholder="Nome">
+                <input type="text" name="email" id="email" placeholder="E-mail">
+                <input type="text" name="number" id="number" placeholder="Telefone">
+                <textarea type="text" name="message" id="message" placeholder="Mensagem"></textarea>
+                <button>Enviar mensagem</button>
+            </form>
+        </div>
+        <div>
+            <p>Todos os direitos reservados.</p>
+        </div>
+    </footer>
+
+    <script src="src/js/script.js"></script>
+    <script>
+        window.onload = function () {
+            const gerarCorAleatoria = function () {
+                var hex = (Math.random() * 0xffffff << 00).toString(16);
+                return `#${hex}`
+            }
+            console.log(gerarCorAleatoria())
+            
+
+            const cardImgs = document.getElementsByClassName("card-img");
+            for (const img of cardImgs) {
+                img.style.backgroundColor = gerarCorAleatoria();
+            }
+        }
+    </script>
+</body>
+
+</html>
