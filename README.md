@@ -14,7 +14,7 @@
 
 Todo o design foi proposto em um desafio da comunidade Codelândia. O design da aplicação foi criado pelo @iuricode e está disponível no Figma:
 
-<a href="https://www.figma.com/file/Yb9IBH56g7T1hdIyZ3BMNO/Desafios---Codel%C3%A2ndia?node-id=1883%3A2">
+<a href="https://www.figma.com/file/Yb9IBH56g7T1hdIyZ3BMNO/Desafios---Codel%C3%A2ndia?node-id=3725%3A2">
   <img alt="Made by iuri" src="https://img.shields.io/badge/Acessar%20Layout%20-Figma-%2304D361">
 </a>
 
