@@ -22,13 +22,13 @@ Todo o design foi proposto em um desafio da comunidade Codelândia. O design da 
 ### Mobile
 
 <p align="center">
-  <img src="https://imgur.com/jzmIQa6"/>
-  <img src="https://imgur.com/X70uAwF"/>
+  <img src="https://imgur.com/jzmIQa6.png"/>
+  <img src="https://imgur.com/X70uAwF.png"/>
 </p>
 
 
 ### Web
 
 <p align="center">
-  <img src="https://imgur.com/GR5byMT"/>
+  <img src="https://imgur.com/GR5byMT.png"/>
 </p>
