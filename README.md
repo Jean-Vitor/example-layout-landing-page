@@ -3,8 +3,6 @@
 ![GitHub repo size](https://img.shields.io/github/repo-size/jean-vitor/example-layout-landing-page?style=for-the-badge)
 ![GitHub language count](https://img.shields.io/github/languages/count/jean-vitor/example-layout-landing-page?style=for-the-badge)
 ![GitHub forks](https://img.shields.io/github/forks/jean-vitor/example-layout-landing-page?style=for-the-badge)
-![Bitbucket open issues](https://img.shields.io/bitbucket/issues/jean-vitor/example-layout-landing-page?style=for-the-badge)
-![Bitbucket open pull requests](https://img.shields.io/bitbucket/pr-raw/jean-vitor/example-layout-landing-page?style=for-the-badge)
 
 ## Link
 
